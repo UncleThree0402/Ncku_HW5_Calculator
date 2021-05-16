@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="870.0" prefWidth="412.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button id="Orange" layoutX="312.0" layoutY="376.0" mnemonicParsing="false" onMouseClicked="#addDivide" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="÷" />
+      <Button id="Orange" layoutX="312.0" layoutY="467.0" mnemonicParsing="false" onMouseClicked="#addTimes" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="*" />
+      <Button id="Orange" layoutX="312.0" layoutY="558.0" mnemonicParsing="false" onMouseClicked="#addMinus" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="−" />
+      <Button id="Orange" layoutX="312.0" layoutY="649.0" mnemonicParsing="false" onMouseClicked="#addPlus" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="+" />
+      <Button id="Orange" layoutX="312.0" layoutY="740.0" mnemonicParsing="false" onMouseClicked="#equal" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="=" />
+
+      <Button id="Grey" layoutX="26.0" layoutY="376.0" mnemonicParsing="false" onMouseClicked="#ac" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="AC" />
+      <Button id="Grey" layoutX="122.0" layoutY="376.0" mnemonicParsing="false" onMouseClicked="#ce" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="CE" />
+      <Button id="Grey" layoutX="218.0" layoutY="376.0" mnemonicParsing="false" onMouseClicked="#bs" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="BS" />
+
+      <Button id="DarkGrey" layoutX="27.0" layoutY="467.0" mnemonicParsing="false" onMouseClicked="#addSeven" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="7" />
+      <Button id="DarkGrey" layoutX="27.0" layoutY="558.0" mnemonicParsing="false" onMouseClicked="#addFour" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="4" />
+      <Button id="DarkGrey" layoutX="27.0" layoutY="649.0" mnemonicParsing="false" onMouseClicked="#addOne" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="1" />
+      <Button id="DarkGrey" layoutX="123.0" layoutY="467.0" mnemonicParsing="false" onMouseClicked="#addEight" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="8" />
+      <Button id="DarkGrey" layoutX="123.0" layoutY="558.0" mnemonicParsing="false" onMouseClicked="#addFive" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="5" />
+      <Button id="DarkGrey" layoutX="123.0" layoutY="649.0" mnemonicParsing="false" onMouseClicked="#addTwo" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="2" />
+      <Button id="DarkGrey" layoutX="218.0" layoutY="467.0" mnemonicParsing="false" onMouseClicked="#addNine" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="9" />
+      <Button id="DarkGrey" layoutX="218.0" layoutY="558.0" mnemonicParsing="false" onMouseClicked="#addSix" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="6" />
+      <Button id="DarkGrey" layoutX="218.0" layoutY="649.0" mnemonicParsing="false" onMouseClicked="#addThree" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="3" />
+      <Button id="DarkGrey" layoutX="218.0" layoutY="742.0" mnemonicParsing="false" onMouseClicked="#addDot" prefHeight="76.0" prefWidth="76.0" stylesheets="@style.css" text="." />
+
+      <Button id="DarkGrey" layoutX="26.0" layoutY="742.0" mnemonicParsing="false" onMouseClicked="#addZero" prefHeight="76.0" prefWidth="173.0" stylesheets="@style.css" text="0" />
+
+      <Label id="equation" fx:id="equationLabel" alignment="CENTER_RIGHT" layoutX="-1.0" layoutY="259.0" prefHeight="47.0" prefWidth="375.0" stylesheets="@style.css" textAlignment="RIGHT" />
+      <Label id="result" fx:id="result" alignment="CENTER_RIGHT" layoutX="-1.0" layoutY="130.0" prefHeight="60.0" prefWidth="375.0" stylesheets="@style.css" textAlignment="RIGHT" />
+
+   </children>
+</AnchorPane>

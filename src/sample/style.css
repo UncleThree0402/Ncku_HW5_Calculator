@@ -1,0 +1,66 @@
+.root{
+    -fx-background-color: #000000;
+}
+
+.button{
+
+}
+
+.button .text {
+
+}
+
+#Orange{
+
+    -fx-font-family: "Helvetica Neue";
+    -fx-background-radius: 38;
+    -fx-background-color: #f7a100;
+    -fx-text-fill: #ffffff;
+
+}
+
+#Orange .text{
+    -fx-font-size: 40px;
+    -fx-alignment: "center";
+}
+
+#Grey{
+
+    -fx-font-family: "Helvetica Neue";
+    -fx-background-radius: 38;
+    -fx-background-color: #afafaf;
+    -fx-text-fill: #000000;
+
+}
+
+#Grey .text{
+    -fx-font-size: 40px;
+    -fx-alignment: "center";
+}
+
+#DarkGrey{
+
+    -fx-font-family: "Helvetica Neue";
+    -fx-background-radius: 38;
+    -fx-background-color: #605d5d;
+    -fx-text-fill: #ffffff;
+    -fx-opacity: 0.58;
+
+}
+
+#DarkGrey .text{
+    -fx-font-size: 40px;
+    -fx-alignment: center;
+}
+
+#equation{
+    -fx-font-family: "Helvetica Neue";
+    -fx-font-size: 40;
+    -fx-text-fill: #afafaf;
+}
+
+#result{
+    -fx-font-family: "Helvetica Neue";
+    -fx-font-size: 50;
+    -fx-text-fill: #ffffff;
+}
